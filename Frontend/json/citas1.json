@@ -1,0 +1,20 @@
+{
+    "success": true,
+    "message": [
+        {
+            "id": "1",
+            "nombre_paciente": "John Doe",
+            "motivo": "Regular checkup"
+        },
+        {
+            "id": "2",
+            "nombre_paciente": "Alice Smith",
+            "motivo": "Dental appointment"
+        },
+        {
+            "id": "3",
+            "nombre_paciente": "Bob Johnson",
+            "motivo": "Follow-up consultation"
+        }
+    ]
+}
