@@ -1,0 +1,47 @@
+http://ib-prod-1384027731.us-east-1.elb.amazonaws.com/
+
+ssh -i labsuser.pem ubuntu@3.234.37.181 
+
+ssh -i labsuser.pem ubuntu@3.86.14.5		 
+
+23.20.222.154  (mv pruebas)
+
+docker push josroyal/api-students
+
+docker tag websimple josroyal/websimple
+
+
+docker tag webplantilla josroyal/webplantilla
+
+docker push josroyal/webplantilla
+
+MV DB Elastic IP address: ssh -i labsuser.pem ubuntu@3.234.37.181 
+
+
+docker run -d --rm --name mysql_c -e MYSQL_ROOT_PASSWORD=utec -p 8005:3306 -v mysql_data:/var/lib/mysql mysql:8.0
+
+
+username addmin
+bd rds aws password zEn9HwAQV8GCYNOnDFpB
+endpoint database-1.csn0plfzhbdm.us-east-1.rds.amazonaws.com
+
+mv prod 1: ssh -i labsuser.pem ubuntu@52.200.78.231		
+mv prod 2: ssh -i labsuser.pem ubuntu@3.239.65.95		
+
+
+ version: "3.3"
+
+ services:
+   api-students:
+     build: ./api-students
+     ports:
+       - 8000:8000
+   websimple:
+     build: ./websimple
+    
+     ports:
+       - 8080:80
+   webplantilla:
+      build: ./webplantilla
+      ports:
+       - 8081:80
